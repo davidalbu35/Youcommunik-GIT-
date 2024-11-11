@@ -89,3 +89,311 @@ body{
     font-size: 2.5em;
     margin-left:5em;
 }
+
+
+
+/* section 2 */
+
+
+
+.section_02{
+    height: 30em;
+}
+
+
+
+
+
+.eclosion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+
+.section_02 .eclosion{
+    height: 2em;
+    width:10em;
+    background-color: #334D5C ;
+    color: white;
+    margin-left: 23em;
+    font-size: 2em;
+    
+}
+
+
+.image_02 img{
+    height: 12em;
+    
+    
+    
+}
+
+
+.image_02{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3em;
+    
+    
+}
+
+
+.image_02 p{
+    font-size: 1.5em;
+    margin-top: 30px;
+}
+
+
+/* section 3 */
+
+
+.section_03 ul {
+    background-color: #EAE3D6;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    height: 10em;
+    
+}
+
+/* Style pour chaque élément de liste */
+.section_03 ul li {
+    display: flex;
+    /* pour mettre les logo au dessus du texte */
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+    margin: 10px; 
+}
+
+
+.section_03 ul li img {
+    width: 7em; 
+    margin-bottom: 5px; 
+    margin-top: 0.3em;
+}
+
+
+.section_03 ul li span {
+    font-size: 1.5em;
+    color: #333; 
+}
+
+
+/* section 4 */
+
+.section_03 ul {
+    background-color: #EAE3D6;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+
+/* Style pour chaque élément de liste */
+.section_03 ul li {
+    display: flex;
+    /* pour mettre les logo au dessus du texte */
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+    margin: 10px; 
+}
+
+
+.section_03 ul li img {
+    width: 30px; 
+    margin-bottom: 5px; 
+}
+
+
+.section_03 ul li span {
+    font-size: 9px;
+    color: #333; 
+}
+
+
+/* section 4 */
+
+.section_04{
+    height: 30em;
+}
+
+.section_04 .evolution{
+    height: 2em;
+    width: 10em;
+    background-color: #334D5C ;
+    color: white;
+    margin-left: 38%;
+    text-align: center;
+    font-size: 2em;
+
+}
+
+
+.image_03{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5em;
+}
+
+.image_03 img{
+    height: 13em;
+}
+
+.image_03 p{
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+
+
+
+
+/* section 5 */
+
+.section_05{
+    background-color: #EAE3D6 ;
+
+}
+
+
+.section_05 ul {
+    background-color: #EAE3D6;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.section_05 ul li{
+    list-style: none;
+    display: flex;
+    /* pour mettre les logo au dessus du texte */
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+    margin: 10px; 
+}
+
+
+.section_05 ul li img{
+    width: 6em;
+    display: flex;
+    
+}
+
+
+.section_05 ul li span {
+    font-size: 1em;
+    color: #333; 
+}
+
+
+/* section 6 */
+
+
+.section_06{
+    height: 30em;
+}
+
+.section_06 .envol{
+    height: 2em;
+    width: 9em;
+    background-color: #334D5C ;
+    color: white;
+    margin-left: 40%;
+    text-align: center;
+    font-size: 2em;
+    
+
+
+}
+
+
+.image_04{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+
+.image_04 img{
+    height: 13em;
+    
+}
+
+.image_04 p{
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+
+
+/* footer */
+
+/* Style global du footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2em 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+/* Sections pour chaque groupe */
+.footer .section {
+    text-align: center;
+}
+
+/* Style des titres (span) */
+.footer .section span {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+/* Style des icônes */
+.footer .section img {
+    width: 2.5em;
+    height: auto;
+    margin: 0.3em 0;
+}
+
+/* Ajustement de l'espace entre les icônes */
+.packs img, .outils img, .socialmedia img {
+    margin: 0.2em 0;
+}
+
+
+
+
+@media (max-width:480px) {
+    body{
+        width: 400%;
+    }
+}
+
+
+
+@media (max-width:768px){
+    body{
+        width: 400%git;
+    }
+}
+
+
+
+
+
+
+
+
+
